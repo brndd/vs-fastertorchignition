@@ -6,7 +6,7 @@
         "Burneddi"
     ],
     "description": "Makes it faster to reignite extinguished torches by right-clicking them with lit torches",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "game": ""
     }
