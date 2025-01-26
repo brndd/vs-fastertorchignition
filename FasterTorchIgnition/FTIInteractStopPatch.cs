@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using HarmonyLib;
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
@@ -12,7 +13,7 @@ public class FTIInteractStopPatch
     {
         Block block = byEntity.World.BlockAccessor.GetBlock(blockSel.Position);
         var delay = 3.0f;
-        if (block.Code.BeginsWith("game", "torch"))
+        if (block is BlockTorch)
         {
             delay = 0.75f;
         }

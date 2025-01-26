@@ -66,7 +66,7 @@ public class FTIInteractStepPatch
         }
 
         var delay = 3.2;
-        if (block.Code.BeginsWith("game", "torch"))
+        if (block is BlockTorch)
         {
             delay = 0.75f;
         }
