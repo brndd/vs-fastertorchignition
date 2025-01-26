@@ -4,7 +4,7 @@ using Vintagestory.API.Common;
 
 namespace FasterTorchIgnition;
 
-public class FIModSystem : ModSystem
+public class FTIModSystem : ModSystem
 {
     public static ICoreAPI Api;
     private Harmony _harmony;
